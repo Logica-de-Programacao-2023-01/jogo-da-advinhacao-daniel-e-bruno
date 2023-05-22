@@ -14,7 +14,6 @@ func main() {
 
 	for z != "n" {
 		x := rand.Intn(101)
-		fmt.Printf("%d", x)
 		count := 0
 		for y != x {
 			fmt.Println("Chute um numero entre 0 e 100!")
